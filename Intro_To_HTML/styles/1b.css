@@ -1,0 +1,55 @@
+.cart{
+  background-color: rgb(243, 243, 20);
+  width: 110px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  margin-right: 15px;
+  cursor: pointer;
+  
+  transition: opacity 0,15s,
+    background-color 0.15s;
+}
+.cart:hover {
+  background-color: rgb(255, 255, 57);
+}
+.cart:active {
+  opacity: 0.8;
+}
+.buy{
+  background-color: rgb(255, 166, 0);
+  width: 100px;
+  height: 25px;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.buy:hover {
+  background-color: rgb(223, 145, 0);
+}
+.buy:active {
+  opacity: 0.6;
+}
+.stock1{
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+.del1{
+  color: rgb(175, 149, 17);
+}
+.nike1{
+  font-weight: bolder;
+  font-size: 24px;
+}
+.amzn1{
+  color: rgb(0, 113, 133);
+}
+.amzn1:hover {
+  color: rgb(238, 123, 40);
+}
+a:hover{
+  color: rgb(94, 170, 18);
+}
